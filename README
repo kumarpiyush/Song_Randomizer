@@ -3,6 +3,6 @@ USAGE : python randomizer.py <songs_directory_name>. E.g., $ python randomizer.p
 Tested for *nix systems. For Windows would need to change forward slashes to back slashes, unless using Cygwin bash where this would work fine
 
 Script to shuffle songs for those mp3 players that just play songs sequentially alphabetically.
-This inserts random permutation of [1..# of songs] before the file names, so player will play in thet order.
+This inserts random permutation of [1..# of songs] before the file names, so player will play in that order.
 This script is reusable, ie, can rerun on earlier shuffled songs. It will not re-prepend a number before already processed songs, they are treated separately
 The script would recursively search for mp3 files in the given directory song_dir, and all processed files will be moved to song_dir
